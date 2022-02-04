@@ -1,4 +1,4 @@
-module github.com/Username/Project-Name
+module github.com/tonilogbo/yt_scraper
 
 go 1.17
 

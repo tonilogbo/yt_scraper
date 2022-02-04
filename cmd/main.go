@@ -4,13 +4,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Username/Project-Name/pkg/scraper"
-	"github.com/Username/Project-Name/pkg/video"
 	"github.com/aws/aws-lambda-go/lambda"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface"
+	"github.com/tonilogbo/yt_scraper/pkg/scraper"
+	"github.com/tonilogbo/yt_scraper/pkg/video"
 )
 
 var(

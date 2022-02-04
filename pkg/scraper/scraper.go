@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Username/Project-Name/pkg/video"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface"
 	"github.com/gocolly/colly/v2"
+	"github.com/tonilogbo/yt_scraper/pkg/video"
 )
 
 func ScrapeYTSearch(search, filter string, callback func(videos Contents)) {
